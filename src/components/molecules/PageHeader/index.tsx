@@ -29,4 +29,9 @@ const styles = StyleSheet.create({
   backButton: {
     marginRight: 26,
   },
+  text: {
+    fontFamily: 'Poppins-Medium',
+    fontSize: 14,
+    color: '#8D92A3',
+  }
 });
