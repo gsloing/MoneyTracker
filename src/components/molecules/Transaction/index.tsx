@@ -1,6 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { Gap } from '../..'
 
 const Transaction = ({label, date, type, cash}) => {
   const cashColor = cash.includes('-') ? 'red' : 'green';
